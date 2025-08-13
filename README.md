@@ -25,7 +25,7 @@ The pipeline includes:
 - Data cleaning and preprocessing  
 - Feature scaling and engineering  
 - Dimensionality reduction (PCA, t-SNE)  
-- Clustering (K-Means, DBSCAN, Agglomerative)  
+- Clustering (K-Means)  
 - Visual analytics and deployment via Streamlit
 
 ---
@@ -36,7 +36,6 @@ The pipeline includes:
 - **Principal Component Analysis (PCA)**  
 - **t-distributed Stochastic Neighbor Embedding (t-SNE)**  
 - **K-Means Clustering with Elbow & Silhouette Score**  
-- **DBSCAN & Hierarchical Clustering (Agglomerative)**  
 - **Visual Analytics & Interpretation**
 
 ---
@@ -48,8 +47,6 @@ data_analytics_anandaswaroop/
 │
 ├── data/              # Sample datasets and raw input data
 ├── notebooks/         # Jupyter notebooks for analysis and tutorials
-├── scripts/           # Python scripts for automation and analysis
-├── reports/           # Generated reports and visualizations
 ├── requirements.txt   # List of Python dependencies
 └── README.md          # Project documentation
 ```
